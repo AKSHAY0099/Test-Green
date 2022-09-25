@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300,400,600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">GREEN</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">Services</a></li>
+                    <li><a href="blog.html">Portfolio</a></li>
+                    <li><a href="course.html">Team</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <button type="submit" class="hro-btn">Get Started</button>
+                </ul>
+            </div>
+            <div class="dropdown-content">
+                <a href="#">Drop Down</a>
+                <a href="#">Drop Down</a>
+                <a href="#">Drop Down</a>
+            </div>
+        </nav>
+    </section>
+
+
+    <section class="mid">
+        <h1>CONTACT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consectetur est accusantium ipsa et quis ad aliquid. Debitis, quasi. Error accusantium suscipit excepturi?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, earum!</p>
+
+    </section>
+
+
+
+
+
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col loc-box">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Location</h5>
+                        <p>Punjab,Chandigarh,INDIA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Email</h5>
+                        <p>Email us for any query</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Call</h5>
+                        <p>Monday to Saterday, 8AM to 6PM</p>
+                    </span>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109701.50192633469!2d76.43546819686892!3d30.76975350093531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ffb140bd63e07%3A0x68591e334d17a988!2sChandigarh%20University!5e0!3m2!1sen!2sin!4v1658238486205!5m2!1sen!2sin"
+                    width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+            <div class="contact-col form-box">
+                <form action="form-hendler.php" method="post">
+                    <label for="text">Your Name</label>
+                    <input type="text" name="name" required>
+                    <label for="text">Email</label>
+                    <input type="email" name="email" required>
+                    <label for="text">Subject</label>
+                    <input type="text" name="subject"  required>
+                    <label for="text">Message</label>
+                    <textarea rows="10" name="message" required></textarea>
+                    <button type="submit" class="submitbtn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

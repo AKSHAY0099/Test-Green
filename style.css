@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo a{
+    font-size: 25px;
+    color: green;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: Black;
+    text-decoration: none;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.dropdown .dropbtn{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding-top: 5px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+}
+
+.dropbtn:hover{
+    color: green;
+    display: block;
+}    
+ 
+.dropdown-content a {
+    float: none;
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; 
+} 
+.dropdown-content a:hover {
+    background-color: #ddd;
+}  
+
+.hro-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+    border: 1px solid rgb(46, 199, 16);
+    background: white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+.hro-btn:hover{
+    border: 1px solid rgb(46, 199, 16);
+    background: white;
+    transition: 1s;
+
+}
+
+
+
+
+.mid{
+    text-align: center;
+}
+
+.mid h1{
+    font-size: 25px;
+    padding: 30px;
+}
+
+.mid h1::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:green ;
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loc-box{
+    border-top: 3px  solid rgb(46, 199, 16);
+    border-bottom: 3px solid rgb(46, 199, 16);
+    padding: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 20px gray;
+    height: 500px;
+}
+.form-box{
+    border-top: 3px  solid rgb(46, 199, 16);
+    border-bottom: 3px solid rgb(46, 199, 16);
+    padding: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 20px gray;
+    height: 500px;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0; 
+}
+.location iframe{
+    width: 80%;
+
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    justify-content: space-between;
+    
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin: 20px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-col div .fa {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(46, 199, 16);
+    background: rgba(46, 199, 16, 0.444);
+    transition: .2s;
+    font-size: 25px;
+    margin: 1rem 0;
+}
+
+.contact-col div p {
+    padding-left: 15px;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.submitbtn{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(46, 199, 16);
+    border: green;
+    padding: 12px 34px;
+    font-size: 15px;
+    cursor: pointer;
+    left: 50%;
+    margin-left: 30%;
+}
+
+label{
+    text-align:left;
+}
